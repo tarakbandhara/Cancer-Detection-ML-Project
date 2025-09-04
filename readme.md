@@ -32,11 +32,21 @@ Early detection of breast cancer is critical for improving survival rates. This 
 
   ## 🧩 Code Breakdown
   ## 1. Import Libraries
-      Handles data, visualization, preprocessing, and model building.
+      import numpy as np
+      import pandas as pd
+      import matplotlib.pyplot as plt
+      import seaborn as sns
+      import warnings.
+      #- numpy, pandas —> numerical and tabular data handling
+      #- matplotlib, seaborn` —> data visualisation
+      warnings.filterwarnings('ignore', message="X does not have valid feature names")
+      #- Ignores irrelative warnings
   ## 2. Load & Explore Dataset
-      Read data.csv
-      Checked missing values
-      Previewed rows and data types
+      data = pd.read_csv('data.csv') #reads csv file
+      data.info() #checks datastructure
+      data.isnull().sum() #Ensuring no missing values
+      data.head() #shows first 5 rows
+      data.tail() #shows last 5 rows
   ## 3. Preprocessing
       Dropped irrelevant columns (id, Unnamed: 32)
       Reordered columns to put diagnosis last
