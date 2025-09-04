@@ -56,3 +56,11 @@ Early detection of breast cancer is critical for improving survival rates. This 
   ## 8. Prediction on New Data
       Input patient data vector
       Predicted Malignant/Benign
+---
+📑 Full Documentation For a detailed breakdown of the Code, Project, See the Program workflow, Explanation of each component
+Please check the full documentation here by clicking in icon below:
+It contains a Homepage and a main Documentation page
+
+ <a href = "https://vast-station-40c.notion.site/Breast-cancer-Prediction-using-Logistic-Regression-Homepage-2618b0b654258051af93eb04867b2d28?source=copy_link" target = "_blank">
+       <img src = "d.png" alt = "Documentation" width="30"/> Full detailed Documentation
+   </a>
