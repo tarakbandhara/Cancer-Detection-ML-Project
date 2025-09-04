@@ -32,27 +32,27 @@ Early detection of breast cancer is critical for improving survival rates. This 
 
   ## 🧩 Code Breakdown
   ## 1. Import Libraries
-      -- Handles data, visualization, preprocessing, and model building.
+      Handles data, visualization, preprocessing, and model building.
   ## 2. Load & Explore Dataset
-      -- Read data.csv
-      -- Checked missing values
-      -- Previewed rows and data types
+      Read data.csv
+      Checked missing values
+      Previewed rows and data types
   ## 3. Preprocessing
-      -- Dropped irrelevant columns (id, Unnamed: 32)
-      -- Reordered columns to put diagnosis last
-      -- Normalized features with StandardScaler
+      Dropped irrelevant columns (id, Unnamed: 32)
+      Reordered columns to put diagnosis last
+      Normalized features with StandardScaler
   ## 4. Train-Test Split
-      -- 80% training, 20% testing
-      -- Set random state = 2
+      80% training, 20% testing
+      Set random state = 2
   ## 5. Model Training
-      -- Algorithm: Logistic Regression
-      -- Fit on standardized training data
+      Algorithm: Logistic Regression
+      Fit on standardized training data
   ## 6. Model Evaluation
-      -- Compared training vs. test accuracy
-      -- Visualized results in a bar chart
-      -- Built confusion matrix
+      Compared training vs. test accuracy
+      Visualized results in a bar chart
+      Built confusion matrix
   ## 7. Performance Check
       -- Overfitting/underfitting check based on score gap
   ## 8. Prediction on New Data
-      -- Input patient data vector
-      -- Predicted Malignant/Benign
+      Input patient data vector
+      Predicted Malignant/Benign
