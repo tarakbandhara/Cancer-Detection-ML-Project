@@ -1,4 +1,4 @@
-# 🧠 Cancer Detection ML Model  
+# 🧠 Breast cancer Detection ML Model  
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)  
 ![Scikit-Learn](https://img.shields.io/badge/ML-ScikitLearn-orange)  
